@@ -1,0 +1,75 @@
+Your task is to create a function that does four basic mathematical operations.
+
+The function should take three arguments - operation(string/char), value1(number), value2(number).
+The function should return result of numbers after applying the chosen operation.
+
+Examples(Operator, value1, value2) --> output
+('+', 4, 7) --> 11
+('-', 15, 18) --> -3
+('*', 5, 5) --> 25
+('/', 49, 7) --> 7
+
+
+My Code
+
+def basic_op(operator, value1, value2): 
+    if operator == '+': 
+        return value1 + value2
+    elif operator == '-': 
+        return value1 - value2 
+    elif operator == '*':
+        return value1 * value2
+    elif operator == '/': 
+        return value1/value2 
+
+Output
+
+Test Results:
+Fixed Tests
+Basic Test Cases
+ (4 of 4 Assertions)
+Completed in 0.08ms
+Random tests
+testing for basic_op(('-', 49, 981))
+testing for basic_op(('/', 86, 90))
+testing for basic_op(('/', 65, 814))
+testing for basic_op(('-', 213, 1))
+testing for basic_op(('-', 6997, 954))
+testing for basic_op(('+', 99465, 9796))
+testing for basic_op(('/', 6902, 9))
+testing for basic_op(('-', 2, 5))
+testing for basic_op(('*', 8, 6112))
+testing for basic_op(('*', 8005, 5921))
+testing for basic_op(('+', 59, 52))
+testing for basic_op(('+', 10, 43))
+testing for basic_op(('-', 6, 287))
+testing for basic_op(('/', 1, 5))
+testing for basic_op(('*', 33, 69026))
+testing for basic_op(('*', 18697, 16530))
+testing for basic_op(('/', 6039, 4312))
+testing for basic_op(('*', 1, 9))
+testing for basic_op(('-', 156, 274))
+testing for basic_op(('+', 6510, 54935))
+testing for basic_op(('-', 3666, 70950))
+testing for basic_op(('-', 7936, 31))
+testing for basic_op(('/', 861, 92820))
+testing for basic_op(('+', 9, 899))
+testing for basic_op(('+', 7, 282))
+testing for basic_op(('*', 44, 95))
+testing for basic_op(('-', 62, 791))
+testing for basic_op(('-', 5, 100))
+testing for basic_op(('/', 501, 90241))
+testing for basic_op(('*', 10, 96987))
+testing for basic_op(('*', 1, 4))
+testing for basic_op(('-', 8942, 96829))
+testing for basic_op(('/', 24, 10))
+testing for basic_op(('-', 69284, 1))
+testing for basic_op(('/', 44, 4106))
+testing for basic_op(('+', 9, 34480))
+testing for basic_op(('/', 53608, 30827))
+testing for basic_op(('-', 9, 61))
+testing for basic_op(('+', 7, 1))
+testing for basic_op(('/', 30856, 28509))
+Completed in 7.15ms
+You have passed all of the tests! :)
+
