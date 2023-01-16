@@ -16,3 +16,5 @@ def fake_bin(x):
     if int(digit) < 5:
       result += "0";
   return result;
+  
+# Выполнено
